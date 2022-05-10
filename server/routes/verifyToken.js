@@ -1,5 +1,5 @@
 const jwt = require("jsonwebtoken");
-const JWT_SEC = "pastry";
+const JWT_SEC = "picture";
 
 const verifyToken = (req, res, next) => {
   const authHeader = req.headers.token;

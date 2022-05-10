@@ -1,6 +1,6 @@
 const router = require("express").Router();
 const STRIPE_KEY =
-  "sk_test_51KqguWGlbe0fsJF1QsLWj7idW5dPF0b1cPJDlbDwyXdHj9Ylj3GSnDT75b2tdUEXepALKqZoyM13pfWk9i7EXryM002x1LiVb3";
+  "sk_test_51Kxdo6JUWpyNDqSP4yBNKwc7pxZFc3uYHi9jlkOdtDjZYbjrwM6NF7myK2lZi9ceXfEEjokYymYEHmaigP1YDqdN00s922RPsc";
 const stripe = require("stripe")(STRIPE_KEY);
 
 router.post("/payment", (req, res) => {

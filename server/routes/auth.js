@@ -3,8 +3,8 @@ const User = require("../models/User");
 const CryptoJS = require("crypto-js");
 const jwt = require("jsonwebtoken");
 
-const PASS_SEC = "backandbliss";
-const JWT_SEC = "pastry";
+const PASS_SEC = "artibc";
+const JWT_SEC = "picture";
 
 //REGISTRATION
 router.post("/register", async (req, res) => {

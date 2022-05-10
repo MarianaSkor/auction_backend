@@ -1,4 +1,4 @@
-const router = require("express").Router();
+ const router = require("express").Router();
 const Product = require("../models/Product");
 const { verifyTokenAndAdmin } = require("./verifyToken");
 
@@ -75,6 +75,6 @@ router.get("/", async (req, res) => {
   } catch (err) {
     res.status(500).json(err);
   }
-});
+});   
 
 module.exports = router;
